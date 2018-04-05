@@ -1,0 +1,167 @@
+/* Universal Syles */
+
+html {
+  font-family: helvetica;
+  color: white;
+  /* text-align: center; */
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+a {
+  font-size: 1rem;
+  color: white;
+}
+
+p {
+  color: black;
+  font-size: 1rem;
+}
+
+
+/* Header Styles */
+
+header {
+  background-color: black;
+  height: 3rem;
+  padding-left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+/* Hero Section */
+
+.main-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.headline-box {
+  background-color: black;
+  width: 20rem;
+  margin-left: 10%;
+  display: flex;
+  flex-flow: column;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.headline-box span {
+  padding-bottom: .25rem;
+  font-weight: bold;
+}
+
+.hero {
+  width: 100%;
+  height: 25rem;
+  background-image: url("../../resources/images/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  background-color: firebrick;
+  display: flex;
+  padding: .75rem 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Body Section Products*/
+
+.body {
+  display: flex;
+  flex-flow: column;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.products {
+  display: flex;
+  flex-flow: nowrap;
+  overflow: hidden;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.product-info {
+  border: solid black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 30%;
+}
+
+.product-image {
+  max-height: 9rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.product-image img {
+  max-height: 8rem;
+}
+
+.product-info span {
+  background-color: black;
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.info-block {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  width: 30%;
+}
+
+.info-block span {
+  background-color: black;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem
+
+}
+
+  /* Footer */
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+
+/* Media Queries */
+
+@@media only screen and (min-width: 1024px) {
+
+
+}
